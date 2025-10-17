@@ -1,0 +1,2 @@
+# GetProperty
+Dokumentasi GetProperty Group
