@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agen Properti Fatih</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f3f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #0b5ed7;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 30px;
+        }
+        .property-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+        .property-card:hover {
+            transform: scale(1.03);
+        }
+        .property-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .property-info {
+            padding: 15px;
+        }
+        .property-info h3 {
+            margin: 0 0 10px;
+        }
+        .contact {
+            background-color: #e9ecef;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🏠 Get Property Group</h1>
+        <p>Temukan Rumah Impian Anda Bersama Kami !!!</p>
+    </header>
+
+    <nav>
+        <a href="#">Daftar Properti</a>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <section class="container">
+        <div class="property-card">
+            <img src="C:/projectGetproperty/rumah%20di%20cikaret/depanRumah.png" alt="Rumah Depan">
+            <div class="property-info">
+                <h3>Rumah 2 Lantai Tanpa DP</h3>
+                <p>Harga: Rp 880.000.000</p>
+                <p>Lokasi: Bogor Selatan</p>
+            </div>
+        </div>
+
+        <div class="property-card">
+            <img src="C:/projectGetproperty/rumah%20dicilodong/depanRumah.jpeg" alt="Rumah Depan">
+            <div class="property-info">
+                <h3>Rumah 2 Lantai Tanpa DP</h3>
+                <p>Harga: Rp 1.000.000.000</p>
+                <p>Lokasi: Depok</p>
+            </div>
+        </div>
+
+        <div class="property-card">
+            <img src="C:/projectGetproperty/rumah%20diciampea/depanRumah.png" alt="Rumah Depan">
+            <div class="property-info">
+                <h3>Rumah Modern Minimalis</h3>
+                <p>Harga: Rp 300.000.000</p>
+                <p>Lokasi: Depok</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Hubungi Kami</h2>
+        <p>📞 0878-7602-0949 | ✉️ agenpropertifatih@gmail.com</p>
+    </section>
+
+</body>
+</html>
