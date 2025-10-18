@@ -5,15 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kontak - Get Property Group</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #eef2ff; margin: 0; }
-    header { background-color: #0d6efd; color: white; text-align: center; padding: 20px; }
-    nav { background-color: #0b5ed7; text-align: center; padding: 10px; }
-    nav a { color: white; text-decoration: none; font-weight: bold; margin: 0 15px; }
-    nav a:hover { text-decoration: underline; }
-    .content { padding: 40px; text-align: center; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2ff;
+      margin: 0;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background-color: #0b5ed7;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 40px;
+      text-align: center;
+    }
     .contact-card {
-      background: white; padding: 20px; margin: auto; border-radius: 10px; width: 300px;
+      background: white;
+      padding: 20px;
+      margin: auto;
+      border-radius: 10px;
+      width: 320px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .contact-card p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 15px;
+      transition: background 0.3s;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1ebe5b;
     }
   </style>
 </head>
@@ -30,9 +75,17 @@
 
   <div class="content">
     <div class="contact-card">
+      <h3>Get Property Group</h3>
       <p>📞 0878-7602-0949</p>
-      <p>✉️ agenpropertifatih@gmail.com</p>
-      <p>📍 Bogor, Jawa Barat</p>
+      <p>✉️ GetProperti@gmail.com</p>
+      <p>📍 Depok, Jawa Barat</p>
+
+      <!-- Tombol WhatsApp -->
+      <a class="whatsapp-btn"
+         href="https://wa.me/6287876020949?text=Halo%20saya%20tertarik%20dengan%20properti%20Anda"
+         target="_blank">
+         💬 Chat Aku Sekarang 
+      </a>
     </div>
   </div>
 </body>
